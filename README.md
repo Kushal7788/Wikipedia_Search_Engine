@@ -21,8 +21,7 @@ The goal of this project is to build a functional index for a 90GB Wikipedia dum
 - These occurrences are seperated by commas and can be used to extract all documents containing the particular word in respective category
 - There are title indexes which store the title name for each page/document which can be accessed via primary title index
 
-
-Code Base
+### Code Base
 The code is divided into following parts
 1. index.py - creates the whole index structure as specified above by parsing the dump and stores the contents in the index folder
 2. preprocessing.py - contains regex and tokenizers to parse the dump and preprocess the string before creating the index
