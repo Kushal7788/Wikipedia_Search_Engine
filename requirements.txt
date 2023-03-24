@@ -1,0 +1,2 @@
+nltk==3.7
+PyStemmer==2.0.1
