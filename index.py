@@ -206,9 +206,9 @@ def create_index_dir(index_path):
 
 
 if __name__ == "__main__":  # main
-    # dump_path = sys.argv[1]
-    # dump_path = os.getcwd() + "/Small_Dump/" + "small_dump.xml"
-    dump_path = "/media/kushal/New Volume/IRE/Big_Dump/large.xml"
+    if len(sys.argv) < 2:
+        sys.exit("usage: python3 index.py <path/to/wikipedia-dump.xml>")
+    dump_path = sys.argv[1]
     # index_path = sys.argv[2]
     index_path = os.getcwd()
     # inverted_stat = sys.argv[3]
