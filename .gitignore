@@ -1,0 +1,27 @@
+# Index output of index.py (rebuild with: python3 index.py <dump.xml>)
+index/
+index_sm/
+
+# Search output
+queries_op.txt
+
+# Wikipedia dumps
+*.xml
+*.xml.bz2
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+
+# NLTK data downloaded locally
+nltk_data/
+.nltk_data/
+
+# Editors / OS
+.idea/
+.vscode/
+*.swp
+.DS_Store
