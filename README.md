@@ -188,6 +188,10 @@ with weights title 0.75, category 0.8, infobox 0.65, references 0.4, external li
 - Paths are relative to the working directory, and queries are read from a file rather than an interactive prompt.
 - There is no automated test suite.
 
+## License
+
+This project is licensed under the [MIT License](LICENSE).
+
 ## Author
 
 Kushal Shah - [github.com/Kushal7788](https://github.com/Kushal7788)
