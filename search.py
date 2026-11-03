@@ -139,11 +139,11 @@ def print_titles(res_titles, count=10):
 def get_index(ele):
     fp = open(index_path + dict_path + "word_secondary.txt", "r")
     line = fp.readline()
-    tokens = line.split(" ")
+    tokens = line.split()
     for indx, token in enumerate(tokens):
         if ele < token:
             return indx - 1
-    return -1
+    return len(tokens) - 1
 
 
 def search(search_str):
